@@ -59,13 +59,14 @@ You will need to install the following locally:
 2. Re-deploy the web app to publish changes
 
 ## Monthly Cost Analysis
-Monthly cost analysis of each Azure resource to give an estimate total cost are in the table below:
+Monthly cost analysis of each Azure resource to give an estimate total cost using the Azure Calculator are in the table below i used EAST US region for all the resources:
 
 | Azure Resource | Service Tier | Monthly Cost |
 | ------------ | ------------ | ------------ |
-| *Azure Postgres Database* |   Basic  |      $48.07        |
-| *Azure Service Bus*   |     Standard    |      $10.00        |
+| *Azure Postgres Database* |   Basic  |      $63.07        |
+| *Azure Service Bus*   |     Standard    |     $9.81        |
 | *App Service Plan*   |    F1     |       Free       |
+| *Azure Functions*   |    Consumption     |       Free       |
 
 ## Architecture Explanation
 Use of the Web App service deployment ensures costs several things:
